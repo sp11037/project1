@@ -1,0 +1,15 @@
+#siteTitleBackImg {
+    z-index: 1;
+}
+
+#siteTitle {
+    z-index: 2;
+}
+
+#carouselExampleIndicators {
+    z-index: 0;
+}
+
+.carousel-item img {
+    height: 500px;
+}
