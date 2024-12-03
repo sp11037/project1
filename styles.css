@@ -13,3 +13,16 @@
 .carousel-item img {
     height: 500px;
 }
+
+@media only screen and (min-width: 1200px) {
+
+#categories div {
+    justify-content: center;
+}
+
+#categories img {
+    width: 20%;
+    margin: 0px 15px;
+}
+
+}
