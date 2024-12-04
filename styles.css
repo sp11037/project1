@@ -25,6 +25,17 @@ body {
     margin: 0px 10px;
 }
 
+#carouselExampleIndicators {
+    border: 2px solid #c03d2b;
+}
+
+.carousel-indicators button {
+    margin: 0px 10px !important;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100%;
+}
+
 .carousel-item img {
     height: 500px;
 }
