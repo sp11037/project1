@@ -4,6 +4,7 @@
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 /* page border */
@@ -33,12 +34,6 @@ body {
     margin: 0px 10px;
 }
 
-/* main area */
-
-section {
-    margin: 40px 0px;
-}
-
 .carousel-indicators button {
     margin: 0px 10px !important;
     width: 20px !important;
@@ -63,13 +58,12 @@ section {
 
 hr {
     width: 60%;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 
 .sectionHeading {
     font-size: 4rem;
     letter-spacing: 10px;
-    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -113,6 +107,19 @@ footer a {
 
 #passwordHelpInline {
     margin-left: 90px;
+}
+
+.product {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.product img {
+    padding-bottom: 20px;
+}
+
+.product p {
+    padding: 0px 30px;
 }
 
 @media screen and (min-width: 992px) {

@@ -190,82 +190,58 @@
             </nav>
         </header>
         <main>
-            <section class="container-fluid mt-2 p-0">
-                <div id="carouselExampleIndicators" class="carousel slide border-end-0" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <section id="cakes" class="container-fluid">
+                <div class="row">
+                    <div class="col col-12 sectionHeading">Cakes</div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col col-9">
+                        <div class="row justify-content-between">
+                            <div class="col col-4 p-4">
+                                <button class="btn product p-4" type="button" data-bs-toggle="modal" data-bs-target="#productModal1">
+                                    <img src="./circlePlaceholder.png" alt="... ">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    <p>$0.00</p>
+                                </button>
+                                <div class="modal fade" id="productModal1" tabindex="-1" aria-labelledby="productModal1Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="productModal1Label">Product Name</h1>
+                                                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="./circlePlaceholder.png" alt="..." class="mx-auto d-block">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In amet doloremque laboriosam sequi est quis quisquam reiciendis cupiditate velit nisi.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="https://placehold.co/600x400" alt="..." class="d-block w-100 object-fit-cover">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://placehold.co/600x400/00AAFF/FFFFFF" alt="..." class="d-block w-100 object-fit-cover">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://placehold.co/600x400/00FFAA/FFFFFF" alt="..." class="d-block w-100 object-fit-cover">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </section>
-            <section class="container-fluid mt-5 ps-0" id="tagline">
-                <h2 class="border border-black border-start-0 text-center">
-                    Delicious and Homemade
-                </h2>
-            </section>
-            <hr>
-            <section class="container-fluid" id="menuCategories">
+            <section id="pastries" class="container-fluid">
                 <div class="row">
-                    <div class="col col-12 mb-5 sectionHeading">
-                        <a href="./menu.html">Menu</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col col-6 d-flex justify-content-end align-items-end flex-column">
-                        <p class="mainPageMenuText" id="mainPageMenuText1">Text</p>
-                        <br>
-                        <a href="./menu.html#cakes">
-                            <img class="mb-4" src="https://placehold.co/600x400?text=cakes" alt="">
-                        </a>
-                    </div>
-                    <div class="col col-6">
-                        <a href="./menu.html#parfaits">
-                            <img src="https://placehold.co/500x800?text=parfaits" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col col-5">
-                        <a href="./menu.html#drinks">
-                            <img src="https://placehold.co/400?text=drinks" alt="" class="float-end">
-                        </a>
-                    </div>
-                    <div class="col col-5 mt-4">
-                        <a href="./menu.html#pastries">
-                            <img src="https://placehold.co/700x500?text=pastries" alt="">
-                        </a>
-                    </div>
-                    <p class="col col-2 mainPageMenuText" id="mainPageMenuText2">Text</p>
+                    <div class="col col-12 sectionHeading">Pastries</div>
                 </div>
             </section>
-            <hr>
-            <section class="container-fluid mb-0">
+            <section id="parfaits" class="container-fluid">
                 <div class="row">
-                    <div class="col col-12 mb-5 sectionHeading">
-                        Location
-                    </div>
-                    <iframe class="p-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46052.54056290298!2d-74.06721805810481!3d40.65524178613918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25090129c363d%3A0x40c6a5770d25022b!2sStatue%20of%20Liberty!5e0!3m2!1sen!2sus!4v1733368996898!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="col col-12 sectionHeading">Parfaits</div>
                 </div>
+
+            </section>
+            <section id="drinks" class="container-fluid">
+                <div class="row">
+                    <div class="col col-12 sectionHeading">Drinks</div>
+                </div>
+                
             </section>
         </main>
         <footer>
