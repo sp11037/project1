@@ -42,17 +42,154 @@
                                 <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z"/>
                             </svg>
                         </a>
-                        <a href="#">
+                        <button class="btn" type="button" data-bs-toggle="modal" data-bs-target="#accountModal">
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#c03d2b" class="bi bi-person-fill" viewBox="0 0 16 16">
                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
                             </svg>
-                        </a>
+                        </button>
+                    </div>
+                    <div class="modal fade" id="accountModal" tabindex="-1" aria-labelledby="accountModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <ul class="nav nav-tabs m-3" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="login-tab" data-bs-toggle="tab" data-bs-target="#login-tab-pane" type="button" role="tab" aria-controls="login-tab-pane" aria-selected="true">Log In</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="signup-tab" data-bs-toggle="tab" data-bs-target="#signup-tab-pane" type="button" role="tab" aria-controls="signup-tab-pane" aria-selected daria-selected="false">Sign Up</button>
+                                    </li>
+                                </ul>
+                                <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="login-tab-pane" role="tabpanel" arialabelledby="login-tab" tabindex="0">
+                                        <form action="..." class="m-4 d-flex flex-column justify-content-center">
+                                            <div class="row mb-3">
+                                                <label for="loginEmail" class="col-sm-2 col-form-label">Email</label>
+                                                <div class="col-sm-10">
+                                                    <input type="email" class="form-control" id="loginEmail" required>
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label for="loginPassword" class="col-sm-2 col-form-label">Password</label>
+                                                <div class="col-sm-10">
+                                                    <input type="password" class="form-control" id="loginPassword" required>
+                                                </div>
+                                            </div>
+                                            <button class="btn btn-primary" type="button">
+                                                <a href="#" class="text-white">Log in</a>
+                                            </button>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="signup-tab-pane" role="tabpanel" aria-labelledby="signup-tab" tabindex="0">
+                                        <form action="..." class="m-4 d-flex flex-column justify-content-center">
+                                            <div class="row mb-3">
+                                                <label for="signupEmail" class="col-sm-2 col-form-label">Email</label>
+                                                <div class="col-sm-10">
+                                                    <input type="email" class="form-control" id="signupEmail" required>
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label for="signupPassword" class="col-sm-2 col-form-label">Password</label>
+                                                <div class="col-sm-10">
+                                                    <input type="password" class="form-control" id="signupPassword" required>
+                                                </div>
+                                                <span id="passwordHelpInline" class="form-text">
+                                                    Must be 8-20 characters long.
+                                                </span>
+                                            </div>
+                                            <fieldset class="row mb-3">
+                                                <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                                                <div class="col-sm-10">
+                                                    <div class="form-check">
+                                                        <input type="radio" class="form-check-input" name="signupGender" id="signupGenderFemale" value="female">
+                                                        <label for="signupGenderFemale" class="form-check-label">Female</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" class="form-check-input" name="signupGender" id="signupGenderMale" value="male">
+                                                        <label for="signupGenderMale" class="form-check-label">Male</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" class="form-check-input" name="signupGender" id="signupGenderNA" value="na">
+                                                        <label for="signupGenderNA" class="form-check-label">Unspecified</label>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                            <div class="row mb-3 g-3">
+                                                <label class="col-sm-2 col-form-label">Birthday</label>
+                                                <div class="col-sm-5">
+                                                    <select name="signupBirthMonth" id="signupBirthMonth" class="form-select">
+                                                        <option selected>Month</option>
+                                                        <option value="1">January</option>
+                                                        <option value="2">February</option>
+                                                        <option value="3">March</option>
+                                                        <option value="4">April</option>
+                                                        <option value="5">May</option>
+                                                        <option value="6">June</option>
+                                                        <option value="7">July</option>
+                                                        <option value="8">August</option>
+                                                        <option value="9">September</option>
+                                                        <option value="10">October</option>
+                                                        <option value="11">November</option>
+                                                        <option value="12">December</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <select name="signupBirthDay" id="signupBirthDay" class="form-select">
+                                                        <option selected>Day</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                        <option value="6">6</option>
+                                                        <option value="7">7</option>
+                                                        <option value="8">8</option>
+                                                        <option value="9">9</option>
+                                                        <option value="10">10</option>
+                                                        <option value="11">11</option>
+                                                        <option value="12">12</option>
+                                                        <option value="13">13</option>
+                                                        <option value="14">14</option>
+                                                        <option value="15">15</option>
+                                                        <option value="16">16</option>
+                                                        <option value="17">17</option>
+                                                        <option value="18">18</option>
+                                                        <option value="19">19</option>
+                                                        <option value="20">20</option>
+                                                        <option value="21">21</option>
+                                                        <option value="22">22</option>
+                                                        <option value="23">23</option>
+                                                        <option value="24">24</option>
+                                                        <option value="25">25</option>
+                                                        <option value="26">26</option>
+                                                        <option value="27">27</option>
+                                                        <option value="28">28</option>
+                                                        <option value="29">29</option>
+                                                        <option value="30">30</option>
+                                                        <option value="31">31</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3 ms-1">
+                                                <div class="form-check">
+                                                    <input type="checkbox" class="form-check-input" value="" id="checkTerms" required>
+                                                    <label for="checkTerms" class="form-check-label">
+                                                        Agree to terms.
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <button class="btn btn-primary" type="submit">Sign up</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>
         </header>
         <main>
-            <section class="container-fluid mt-3 p-0">
+            <section class="container-fluid mt-2 p-0">
                 <div id="carouselExampleIndicators" class="carousel slide border-end-0" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
