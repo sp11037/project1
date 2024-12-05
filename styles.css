@@ -1,3 +1,13 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* page border */
+
 body {
     margin: 50px;
     margin-top: 130px;
@@ -11,9 +21,7 @@ body {
     border-radius: 90px;
 }
 
-.nav-item {
-    font-family: 'Roboto Slab', serif;
-}
+/* header area */
 
 #headerIcons {
     position: absolute;
@@ -25,8 +33,10 @@ body {
     margin: 0px 10px;
 }
 
-#carouselExampleIndicators {
-    border: 2px solid #c03d2b;
+/* main area */
+
+section {
+    margin: 40px 0px;
 }
 
 .carousel-indicators button {
@@ -38,6 +48,61 @@ body {
 
 .carousel-item img {
     height: 500px;
+}
+
+#tagline {
+    padding-right: 35%;
+}
+
+#tagline h2 {
+    padding: 50px 50px;
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+hr {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.sectionHeading {
+    font-size: 4rem;
+    letter-spacing: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.mainPageMenuText {
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+#mainPageMenuText1 {
+    letter-spacing: 10px;
+}
+
+#mainPageMenuText2 {
+    margin-top: 24px;
+    width: 1px;
+    word-wrap: break-word;
+}
+
+#menuCategories img {
+    border: 1px solid black;
+}
+
+/* footer */
+
+footer .row {
+    height: 80px;
+    background-color: #c03d2b;
+    border-radius: 0px 0px 90px 90px;
+    color: white; /*temp*/
+}
+
+footer a {
+    margin: 0 5px;
 }
 
 @media screen and (min-width: 992px) {
