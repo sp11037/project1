@@ -151,11 +151,54 @@ footer a {
 }
 
 .product img {
-    padding-bottom: 20px;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    background-color: rgb(236, 152, 152);
+    border-radius: 30%;
 }
 
 .product p {
     padding: 0px 30px;
+}
+
+.product:hover {
+    background-color: rgb(236, 152, 152);
+    border-radius: 100px;
+}
+
+.modal-content {
+    background-color: rgb(236, 152, 152);
+    border-radius: 50px;
+}
+
+.modal-header h1 {
+    width: 100%;
+    text-align: center;
+    padding-left: 30px;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+}
+
+.modal-header, .modal-footer {
+    border: 0px;
+}
+
+.modal-body img {
+    padding-bottom: 40px;
+}
+
+.modal-body p {
+    padding: 0px 40px;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+.modal-footer button {
+    border-radius: 50px;
+    width: 80%;
+    margin-bottom: 20px;
 }
 
 /* #aboutText {

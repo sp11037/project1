@@ -13,7 +13,7 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <a href="./index.html" class="navbar-brand">
-                        <img id="headerImg" class="d-none d-lg-block position-absolute top-0 start-50 z-1" src="./headerTitle.png" alt="...">
+                        <img id="headerImg" class="d-none d-lg-block position-absolute top-0 start-50 z-1" src="./headerTitle4.png" alt="...">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -39,12 +39,12 @@
                     </div>
                     <div id="headerIcons">
                         <a href="./cart.html">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#c03d2b" class="bi bi-bag-fill" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ff5599" class="bi bi-bag-fill" viewBox="0 0 16 16">
                                 <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z"/>
                             </svg>
                         </a>
                         <button class="btn" type="button" data-bs-toggle="modal" data-bs-target="#accountModal">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#c03d2b" class="bi bi-person-fill" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ff5599" class="bi bi-person-fill" viewBox="0 0 16 16">
                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
                             </svg>
                         </button>
@@ -199,29 +199,26 @@
                         <div class="row">
                             <div class="col col-4 p-4">
                                 <button class="btn product p-4" type="button" data-bs-toggle="modal" data-bs-target="#productModal1">
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="vanillaCake2.png" alt="..." class="card-img-top">
-                                        <div class="card-body">
-                                            <p class="card-title">Vanilla Cake</p>
-                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                            <p class="card-text">$0.00</p>
-                                        </div>
-                                    </div>
+                                    <img src="./vanillaCake2.png" alt="... ">
+                                    <p>Vanilla Cake</p>
+                                    <p>Short description. Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p>$3.95</p>
                                 </button>
                                 <div class="modal fade" id="productModal1" tabindex="-1" aria-labelledby="productModal1Label" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="productModal1Label">Product Name</h1>
-                                                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                <h1 class="modal-title fs-3" id="productModal1Label">Vanilla Cake</h1>
+                                                <button class="btn-close me-2" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
-                                            <div class="modal-body">
-                                                <img src="./vanillaCake.png" alt="..." class="mx-auto d-block">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In amet doloremque laboriosam sequi est quis quisquam reiciendis cupiditate velit nisi.</p>
+                                            <div class="modal-body fs-4 pb-0">
+                                                <img src="./vanillaCake2.png" alt="..." class="mx-auto d-block">
+                                                <p>Long Description.</p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora nihil officia autem perspiciatis in!</p>
+                                                <p>$3.95</p>
                                             </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Add to Cart</button>
+                                            <div class="modal-footer justify-content-center">
+                                                <button type="button" class="btn btn-light fs-3">Add to Cart</button>
                                             </div>
                                         </div>
                                     </div>
@@ -230,24 +227,25 @@
                             <div class="col col-4 p-4">
                                 <button class="btn product p-4" type="button" data-bs-toggle="modal" data-bs-target="#productModal2">
                                     <img src="./chocolateCake2.png" alt="... ">
-                                    <p>Product Name</p>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                                    <p>$0.00</p>
+                                    <p>Chocolate Cake</p>
+                                    <p>Short description. Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p>$3.95</p>
                                 </button>
                                 <div class="modal fade" id="productModal2" tabindex="-1" aria-labelledby="productModal2Label" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="productModal2Label">Product Name</h1>
-                                                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                <h1 class="modal-title fs-3" id="productModal2Label">Chocolate Cake</h1>
+                                                <button class="btn-close me-2" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
-                                            <div class="modal-body">
-                                                <img src="./chocolateCake.png" alt="..." class="mx-auto d-block">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In amet doloremque laboriosam sequi est quis quisquam reiciendis cupiditate velit nisi.</p>
+                                            <div class="modal-body fs-4 pb-0">
+                                                <img src="./chocolateCake2.png" alt="..." class="mx-auto d-block">
+                                                <p>Long Description.</p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora nihil officia autem perspiciatis in!</p>
+                                                <p>$3.95</p>
                                             </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Add to Cart</button>
+                                            <div class="modal-footer justify-content-center">
+                                                <button type="button" class="btn btn-light fs-3">Add to Cart</button>
                                             </div>
                                         </div>
                                     </div>
@@ -268,23 +266,24 @@
                                 <button class="btn product p-4" type="button" data-bs-toggle="modal" data-bs-target="#productModal3">
                                     <img src="./fruitTart.png" alt="... ">
                                     <p>Fruit Tart</p>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                                    <p>$0.00</p>
+                                    <p>Short description. Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p>$2.50</p>
                                 </button>
                                 <div class="modal fade" id="productModal3" tabindex="-1" aria-labelledby="productModal3Label" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="productModal3Label">Product Name</h1>
-                                                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                <h1 class="modal-title fs-3" id="productModal3Label">Fruit Tart</h1>
+                                                <button class="btn-close me-2" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
-                                            <div class="modal-body">
-                                                <img src="./brownie.png" alt="..." class="mx-auto d-block">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In amet doloremque laboriosam sequi est quis quisquam reiciendis cupiditate velit nisi.</p>
+                                            <div class="modal-body fs-4 pb-0">
+                                                <img src="./fruitTart.png" alt="..." class="mx-auto d-block">
+                                                <p>Long Description.</p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora nihil officia autem perspiciatis in!</p>
+                                                <p>$2.50</p>
                                             </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Add to Cart</button>
+                                            <div class="modal-footer justify-content-center">
+                                                <button type="button" class="btn btn-light fs-3">Add to Cart</button>
                                             </div>
                                         </div>
                                     </div>
@@ -302,52 +301,54 @@
                     <div class="col col-9">
                         <div class="row">
                             <div class="col col-4 p-4">
-                                <button class="btn product p-4" type="button" data-bs-toggle="modal" data-bs-target="#productModal3">
+                                <button class="btn product p-4" type="button" data-bs-toggle="modal" data-bs-target="#productModal4">
                                     <img src="./strawberryParfait.png" alt="... ">
                                     <p>Strawberry Parfait</p>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                                    <p>$0.00</p>
+                                    <p>Short description. Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p>$6.25</p>
                                 </button>
-                                <div class="modal fade" id="productModal3" tabindex="-1" aria-labelledby="productModal3Label" aria-hidden="true">
+                                <div class="modal fade" id="productModal4" tabindex="-1" aria-labelledby="productModal4Label" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="productModal3Label">Product Name</h1>
-                                                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                <h1 class="modal-title fs-3" id="productModal4Label">Strawberry Parfait</h1>
+                                                <button class="btn-close me-2" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
-                                            <div class="modal-body">
-                                                <img src="./brownie.png" alt="..." class="mx-auto d-block">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In amet doloremque laboriosam sequi est quis quisquam reiciendis cupiditate velit nisi.</p>
+                                            <div class="modal-body fs-4 pb-0">
+                                                <img src="./strawberryParfait.png" alt="..." class="mx-auto d-block">
+                                                <p>Long Description.</p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora nihil officia autem perspiciatis in!</p>
+                                                <p>$6.25</p>
                                             </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Add to Cart</button>
+                                            <div class="modal-footer justify-content-center">
+                                                <button type="button" class="btn btn-light fs-3">Add to Cart</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col col-4 p-4">
-                                <button class="btn product p-4" type="button" data-bs-toggle="modal" data-bs-target="#productModal3">
+                                <button class="btn product p-4" type="button" data-bs-toggle="modal" data-bs-target="#productModal5">
                                     <img src="./chocolateParfait.png" alt="... ">
                                     <p>Chocolate Parfait</p>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                                    <p>$0.00</p>
+                                    <p>Short description. Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p>$6.25</p>
                                 </button>
-                                <div class="modal fade" id="productModal3" tabindex="-1" aria-labelledby="productModal3Label" aria-hidden="true">
+                                <div class="modal fade" id="productModal5" tabindex="-1" aria-labelledby="productModal5Label" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="productModal3Label">Product Name</h1>
-                                                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                <h1 class="modal-title fs-3" id="productModal5Label">Chocolate Parfait</h1>
+                                                <button class="btn-close me-2" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
-                                            <div class="modal-body">
+                                            <div class="modal-body fs-4 pb-0">
                                                 <img src="./chocolateParfait.png" alt="..." class="mx-auto d-block">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In amet doloremque laboriosam sequi est quis quisquam reiciendis cupiditate velit nisi.</p>
+                                                <p>Long Description.</p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora nihil officia autem perspiciatis in!</p>
+                                                <p>$6.25</p>
                                             </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Add to Cart</button>
+                                            <div class="modal-footer justify-content-center">
+                                                <button type="button" class="btn btn-light fs-3">Add to Cart</button>
                                             </div>
                                         </div>
                                     </div>
@@ -365,52 +366,54 @@
                     <div class="col col-9">
                         <div class="row">
                             <div class="col col-4 p-4">
-                                <button class="btn product p-4" type="button" data-bs-toggle="modal" data-bs-target="#productModal3">
+                                <button class="btn product p-4" type="button" data-bs-toggle="modal" data-bs-target="#productModal6">
                                     <img src="./coffee.png" alt="... ">
                                     <p>Coffee</p>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                                    <p>$0.00</p>
+                                    <p>Short description. Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p>$0.95</p>
                                 </button>
-                                <div class="modal fade" id="productModal3" tabindex="-1" aria-labelledby="productModal3Label" aria-hidden="true">
+                                <div class="modal fade" id="productModal6" tabindex="-1" aria-labelledby="productModal6Label" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="productModal3Label">Product Name</h1>
-                                                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                <h1 class="modal-title fs-3" id="productModal6Label">Coffee</h1>
+                                                <button class="btn-close me-2" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
-                                            <div class="modal-body">
+                                            <div class="modal-body fs-4 pb-0">
                                                 <img src="./coffee.png" alt="..." class="mx-auto d-block">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In amet doloremque laboriosam sequi est quis quisquam reiciendis cupiditate velit nisi.</p>
+                                                <p>Long Description.</p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora nihil officia autem perspiciatis in!</p>
+                                                <p>$0.95</p>
                                             </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Add to Cart</button>
+                                            <div class="modal-footer justify-content-center">
+                                                <button type="button" class="btn btn-light fs-3">Add to Cart</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col col-4 p-4">
-                                <button class="btn product p-4" type="button" data-bs-toggle="modal" data-bs-target="#productModal3">
+                                <button class="btn product p-4" type="button" data-bs-toggle="modal" data-bs-target="#productModal7">
                                     <img src="./tea.png" alt="... ">
                                     <p>Tea</p>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                                    <p>$0.00</p>
+                                    <p>Short description. Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p>$0.95</p>
                                 </button>
-                                <div class="modal fade" id="productModal3" tabindex="-1" aria-labelledby="productModal3Label" aria-hidden="true">
+                                <div class="modal fade" id="productModal7" tabindex="-1" aria-labelledby="productModal7Label" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="productModal3Label">Product Name</h1>
-                                                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                <h1 class="modal-title fs-3" id="productModal7Label">Tea</h1>
+                                                <button class="btn-close me-2" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
-                                            <div class="modal-body">
+                                            <div class="modal-body fs-4 pb-0">
                                                 <img src="./tea.png" alt="..." class="mx-auto d-block">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In amet doloremque laboriosam sequi est quis quisquam reiciendis cupiditate velit nisi.</p>
+                                                <p>Long Description.</p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora nihil officia autem perspiciatis in!</p>
+                                                <p>$0.95</p>
                                             </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Add to Cart</button>
+                                            <div class="modal-footer justify-content-center">
+                                                <button type="button" class="btn btn-light fs-3">Add to Cart</button>
                                             </div>
                                         </div>
                                     </div>
