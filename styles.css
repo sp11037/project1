@@ -12,22 +12,44 @@ a {
 body {
     margin: 50px;
     margin-top: 130px;
-    border: 10px solid #c03d2b;
+    border: 10px solid #ff2a7f;
     border-radius: 100px;
+    background-color: #ffdfed;
 }
 
 #content-border {
     margin: 5px;
-    border: 5px solid #c03d2b;
+    border: 5px solid #ff2a7f;
     border-radius: 90px;
+    background-color: white;
 }
 
 /* header area */
 
+header {
+    height: 100px;
+}
+
+#headerImg {
+    transform: translate(-50%, -60%);
+}
+
+#navMenu {
+    transform: translate(-50%, 20%);
+    margin-top: 30px;
+    background-color: #ff2a7f;
+    border-radius: 100px;
+}
+
+.nav-link {
+    color: white;
+}
+
 #headerIcons {
     position: absolute;
-    top: -100%;
-    right: -2%;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -260%);
 }
 
 #headerIcons a {
@@ -41,12 +63,12 @@ body {
     border-radius: 100%;
 }
 
-.carousel-item img {
-    height: 500px;
+.carousel-inner {
+    border-radius: 85px 85px 0px 0px;
 }
 
-#tagline {
-    padding-right: 35%;
+.carousel-item img {
+    height: 500px;
 }
 
 #tagline h2 {
@@ -82,21 +104,35 @@ hr {
     word-wrap: break-word;
 }
 
+#menuCategories {
+    height: 600px;
+}
+
 #menuCategories img {
-    border: 1px solid black;
+    border-radius: 30%;
+    padding: 40px 20px;
+    background-color: lightyellow;
+}
+
+#menuCategories img:hover {
+    border: 10px solid #ff2a7f;
+}
+
+#menuCategories h2 {
+    font-size: 3rem;
 }
 
 /* footer */
 
 footer .row {
-    height: 80px;
-    background-color: #c03d2b;
-    border-radius: 0px 0px 90px 90px;
+    height: 150px;
+    background-color: #ff2a7f;
+    border-radius: 0px 0px 80px 80px;
     color: white; /*temp*/
 }
 
 footer a {
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 #accountModal .btn-close {
@@ -129,7 +165,7 @@ footer a {
 @media screen and (min-width: 992px) {
     
 #navbarSupportedContent {
-    margin-top: 45px;
+    margin-top: 35px;
 }
 
 }
