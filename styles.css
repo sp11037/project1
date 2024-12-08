@@ -112,6 +112,7 @@ hr {
     border-radius: 30%;
     padding: 40px 20px;
     background-color: lightyellow;
+    border: 10px solid #00000000;
 }
 
 #menuCategories img:hover {
@@ -148,6 +149,7 @@ footer a {
 .product {
     text-align: center;
     font-size: 2rem;
+    border-radius: 100px;
 }
 
 .product img {
@@ -163,7 +165,6 @@ footer a {
 
 .product:hover {
     background-color: rgb(236, 152, 152);
-    border-radius: 100px;
 }
 
 .modal-content {
@@ -201,9 +202,10 @@ footer a {
     margin-bottom: 20px;
 }
 
-/* #aboutText {
-    padding: 50px;
-} */
+#aboutText {
+    padding: 50px 0px 0px 100px;
+    line-height: 50px;
+}
 
 @media screen and (min-width: 992px) {
     
