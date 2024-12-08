@@ -52,7 +52,7 @@
                     <div class="modal fade" id="accountModal" tabindex="-1" aria-labelledby="accountModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                             <div class="modal-content">
-                                <ul class="nav nav-tabs m-3" id="myTab" role="tablist">
+                                <ul class="nav nav-underline m-3 ms-5 fs-4" id="myTab" role="tablist">
                                     <li class="nav-item" role="presentation">
                                         <button class="nav-link active" id="login-tab" data-bs-toggle="tab" data-bs-target="#login-tab-pane" type="button" role="tab" aria-controls="login-tab-pane" aria-selected="true">Log In</button>
                                     </li>
@@ -60,38 +60,38 @@
                                         <button class="nav-link" id="signup-tab" data-bs-toggle="tab" data-bs-target="#signup-tab-pane" type="button" role="tab" aria-controls="signup-tab-pane" aria-selected daria-selected="false">Sign Up</button>
                                     </li>
                                 </ul>
-                                <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <button class="btn-close accountModalClose" data-bs-dismiss="modal" aria-label="Close"></button>
                                 <div class="tab-content" id="myTabContent">
                                     <div class="tab-pane fade show active" id="login-tab-pane" role="tabpanel" arialabelledby="login-tab" tabindex="0">
-                                        <form action="..." class="m-4 d-flex flex-column justify-content-center">
-                                            <div class="row mb-3">
-                                                <label for="loginEmail" class="col-sm-2 col-form-label">Email</label>
-                                                <div class="col-sm-10">
+                                        <form action="..." class="m-4 d-flex flex-column justify-content-center fs-4">
+                                            <div class="row mb-3 align-items-center">
+                                                <label for="loginEmail" class="col-sm-3 col-form-label">Email</label>
+                                                <div class="col-sm-9">
                                                     <input type="email" class="form-control" id="loginEmail" required>
                                                 </div>
                                             </div>
-                                            <div class="row mb-3">
-                                                <label for="loginPassword" class="col-sm-2 col-form-label">Password</label>
-                                                <div class="col-sm-10">
+                                            <div class="row mb-4 align-items-center">
+                                                <label for="loginPassword" class="col-sm-3 col-form-label">Password</label>
+                                                <div class="col-sm-9">
                                                     <input type="password" class="form-control" id="loginPassword" required>
                                                 </div>
                                             </div>
-                                            <button class="btn btn-primary" type="button">
-                                                <a href="./account.html" class="text-white">Log in</a>
+                                            <button class="btn btn-light fs-4 w-25 align-self-center" type="button">
+                                                <a href="./account.html">Log in</a>
                                             </button>
                                         </form>
                                     </div>
                                     <div class="tab-pane fade" id="signup-tab-pane" role="tabpanel" aria-labelledby="signup-tab" tabindex="0">
-                                        <form action="..." class="m-4 d-flex flex-column justify-content-center">
+                                        <form action="..." class="m-4 d-flex flex-column justify-content-center fs-4">
                                             <div class="row mb-3">
-                                                <label for="signupEmail" class="col-sm-2 col-form-label">Email</label>
-                                                <div class="col-sm-10">
+                                                <label for="signupEmail" class="col-sm-3 col-form-label">Email</label>
+                                                <div class="col-sm-9">
                                                     <input type="email" class="form-control" id="signupEmail" required>
                                                 </div>
                                             </div>
                                             <div class="row mb-3">
-                                                <label for="signupPassword" class="col-sm-2 col-form-label">Password</label>
-                                                <div class="col-sm-10">
+                                                <label for="signupPassword" class="col-sm-3 col-form-label">Password</label>
+                                                <div class="col-sm-9">
                                                     <input type="password" class="form-control" id="signupPassword" required>
                                                 </div>
                                                 <span id="passwordHelpInline" class="form-text">
@@ -116,7 +116,7 @@
                                                 </div>
                                             </fieldset>
                                             <div class="row mb-3 g-3">
-                                                <label class="col-sm-2 col-form-label">Birthday</label>
+                                                <label class="col-sm-3 col-form-label">Birthday</label>
                                                 <div class="col-sm-5">
                                                     <select name="signupBirthMonth" id="signupBirthMonth" class="form-select">
                                                         <option selected>Month</option>
@@ -179,7 +179,7 @@
                                                     </label>
                                                 </div>
                                             </div>
-                                            <button class="btn btn-primary" type="submit">Sign up</button>
+                                            <button class="btn btn-light fs-4 w-25 align-self-center" type="submit">Sign up</button>
                                         </form>
                                     </div>
                                 </div>

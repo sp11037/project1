@@ -143,7 +143,7 @@ footer a {
 }
 
 #passwordHelpInline {
-    margin-left: 90px;
+    margin-left: 120px;
 }
 
 .product {
@@ -221,6 +221,10 @@ footer a {
 
 .cartPrice {
     line-height: 2rem;
+}
+
+.accountModalClose {
+    margin: 16px;
 }
 
 @media screen and (min-width: 992px) {
