@@ -7,6 +7,18 @@ a {
     color: black;
 }
 
+#tagline h2 {
+    padding: 50px 50px;
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+hr {
+    width: 60%;
+    margin: 40px auto;
+}
+
 /* page border */
 
 body {
@@ -56,6 +68,8 @@ header {
     margin: 0px 10px;
 }
 
+/* carousel */
+
 .carousel-indicators button {
     margin: 0px 10px !important;
     width: 20px !important;
@@ -71,37 +85,12 @@ header {
     height: 500px;
 }
 
-#tagline h2 {
-    padding: 50px 50px;
-    font-weight: 700;
-    font-size: 3rem;
-    letter-spacing: 2px;
-}
-
-hr {
-    width: 60%;
-    margin: 40px auto;
-}
+/* main area */
 
 .sectionHeading {
     font-size: 4rem;
     letter-spacing: 10px;
     text-align: center;
-}
-
-.mainPageMenuText {
-    font-size: 5rem;
-    line-height: 5rem;
-}
-
-#mainPageMenuText1 {
-    letter-spacing: 10px;
-}
-
-#mainPageMenuText2 {
-    margin-top: 24px;
-    width: 1px;
-    word-wrap: break-word;
 }
 
 #menuCategories {
@@ -136,15 +125,20 @@ footer a {
     margin: 0 10px;
 }
 
+/* login and signup modal */
+
 #accountModal .btn-close {
     position: absolute;
     top: 10px;
     right: 10px;
+    margin: 16px;
 }
 
 #passwordHelpInline {
     margin-left: 120px;
 }
+
+/* Menu page */
 
 .product {
     text-align: center;
@@ -202,10 +196,14 @@ footer a {
     margin-bottom: 20px;
 }
 
+/* About page */
+
 #aboutText {
     padding: 50px 0px 0px 100px;
     line-height: 50px;
 }
+
+/* Cart Page */
 
 .trashItem {
     margin: 10px 120px;
@@ -223,9 +221,7 @@ footer a {
     line-height: 2rem;
 }
 
-.accountModalClose {
-    margin: 16px;
-}
+/* Account page */
 
 #accountPanel .nav-link {
     color: black;
