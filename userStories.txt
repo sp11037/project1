@@ -1,0 +1,9 @@
+Persona: Cafe customer
+
+1. As a customer, I want to view the menu so that I can see what the cafe sells.
+
+2. As a customer, I want to place an order so that I can order ahead of arriving.
+
+3. As a customer, I want to check on the status of my order so that I can know if it's ready.
+
+4. As a customer, I want to look at my past orders so that I know what I've tried.
