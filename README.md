@@ -16,3 +16,6 @@ Future Improvements:
 - implement a database to store user information
 - use javascript to allow users to log in/sign up
 - create a functioning order system
+
+GitHub Pages:
+https://sp11037.github.io/project1/
